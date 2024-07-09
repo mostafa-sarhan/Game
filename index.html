@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="game"  id="game">
+        <header>
+            <img src="image/wraper.png" class="w-100" alt="">
+        </header>
+        <div class="container translate-middle-y">
+                <nav class="navbar navbar-expand-lg nav-bg position-sticky bx_shadow w-100 nav-bg_color top-0 z-3 col-md-6 col-lg-9">
+                    <h5 class="navbar-brand mb-0 text-uppercase">
+                        <img src="image/logo-sm.png" alt="logo photo" style="max-width: 40px"> Game Reviews
+                    </h5>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse small navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small">
+                            <li class="nav-item">
+                                <a role="button" class="nav-link active text-uppercase " aria-current="page" data-category="mmorpg">mmorpg</a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="button" class="nav-link text-uppercase" data-category="shooter">shooter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="button" class="nav-link text-uppercase" data-category="sailing">sailing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="button" class="nav-link text-uppercase" data-category="permadeath">permadeath</a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="button" class="nav-link text-uppercase" data-category="superhero">superhero</a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="button" class="nav-link text-uppercase" data-category="pixel">pixel</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+        </div>
+        <main class="container my-5 ">
+            <section class=" position-relative">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gameData">
+                </div>
+            </section>
+        </main>
+    </section>
+    <section class="details d-none" id="details">
+        <div class="container">
+            <header class="hstack justify-content-between">
+                <h1 class="text-center h3 py-4">Details Game</h1>
+                <button class="btn-close btn-close-white" id="btnClose"></button>
+            </header>
+            <div class="row g-4" id="detailsContent">
+                <!-- <div class="col-md-4">
+                <img src="https://www.freetogame.com/g/11/thumbnail.jpg" class="w-100" alt="image details">
+                </div>
+                <div class="col-md-8">
+                    <h3>Title: Neverwinter</h3>
+                    <p>Category: <span class="badge text-bg-info"> MMORPG</span> </p>
+                    <p>Platform: <span class="badge text-bg-info"> Windows</span> </p>
+                    <p>Status: <span class="badge text-bg-info"> Live</span> </p>
+                        <p class="small">If you’re a fan of Dungeons and Dragons, have I got a game for you! Neverwinter, developed by Cryptic Studios and published by Perfect World  Entertainment, is based on the critically acclaimed fantasy role playing game and the best part is ­ it’s free to play. In the world of Neverwinter, you will explore and defend one of the most beloved cities from the Dungeons and Dragons Forgotten Realms Campaign Setting, as it rises from the ashes of total destruction. In this totally immersive MMORPG you will go from the besieged walls of the city, to the subterranean passageways and search for forgotten secrets and lost treasure along the way.
+                        Neverwinter is completely free to play, from the very first level, all the way up to the level cap, so anyone is able to experience the engaging action and combat it brings. You don’t have to worry about tab­targeting or auto­attacking to defeat your enemies, Neverwinter provides an amazing combat experience where every action will require planning and feel visceral and look spectacular.
+                        Neverwinter also comes with Foundry, which is a dynamic tool set that will provide you with the game assets and a sandbox environment that will allow you to create your own adventures ­ and when you are ready to unveil your creation to the world ­ you are able to hook it up directly to the existing work so everyone else in the community can experience it as well!
+
+                Whether you are familiar with Dungeons and Dragons from the tabletop game or from the novels, Neverwinter has recreated many of the iconic classes, locations and encounters that you will know and love! You might choose to go on an adventure as a mighty Guardian Fighter, choose to deceive foes as a Trickster Rogue, or follow the righteous path as a Devoted Cleric, but whatever journey you decide to take in Neverwinter you will face Kobolds, Beholders, Mimics and many other creatures from the Dungeons and Dragons universe, and you will surely feel right at home!</p>
+                    <a class="btn btn-outline-warning" target="_blank" href="https://www.freetogame.com/open/neverwinter">Show Game</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <div class="loading d-none">
+        <span class="loader"></span>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
